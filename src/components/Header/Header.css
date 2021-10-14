@@ -1,0 +1,11 @@
+.header{
+    height: 50px;
+    background: #02A4D3;
+}
+
+.header_title h3 {
+    text-align: center;
+    color: white;
+    padding-top: 12px;
+    font-family: 'Architects Daughter', cursive;
+}

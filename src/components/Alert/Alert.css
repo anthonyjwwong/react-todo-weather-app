@@ -1,0 +1,13 @@
+.alert-success {
+    color: green;
+}
+
+.alert {
+    text-align: center;
+    margin-bottom: -22px;
+    font-size: 18px;
+}
+
+.alert-fail {
+    color: red;
+}

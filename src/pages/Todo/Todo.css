@@ -1,0 +1,87 @@
+.todo {
+    font-family: 'Caveat', cursive;
+}
+
+.todo_list {
+    width: 60%;
+    margin: 0 auto;
+    height: 80vh;
+    margin-top: 20px;
+    background: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: #faf0e6;
+    font-family: 'Caveat', cursive;
+    position: relative;
+}
+
+/* font-family: 'Caveat', cursive;*/
+
+.todo_form {
+    width: 60%;
+    margin: 0 auto;
+   
+}
+
+.todo_note {
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.todo_form input {
+    width: 90%;
+    margin-top: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: inherit;
+    font-size: 20px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+
+}
+
+input:focus { 
+    outline: none !important;
+    border-color: black;
+    box-shadow: 0 0 5px black;
+}
+
+.todo_form button {
+    margin-left: -40px;
+    border: none;
+    background: transparent;
+    color: pink;
+    font-size: 15px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.todo_form button:hover {
+    transform: scale(1.2);
+
+}
+
+.todo_home_button {
+    position: absolute;
+
+    bottom: 0;
+    margin-left: 20px;
+    background: transparent;
+    border: 3px solid red;
+    color: red;
+    padding: 5px 10px;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.todo_list button:hover {
+    transform: scale(1.1);
+}
+
+.todo_list button:active {
+    transform: scale(1.0);
+}

@@ -1,0 +1,32 @@
+.home {
+    
+}
+
+.home_container button{
+    width: 150px;
+    height: 150px;
+    background: rgba(154, 18, 179, 0.3);
+    border-radius: 10px;
+    color:white;
+    font-family: 'Architects Daughter', cursive;
+    border: none;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    font-size: 20px;
+}
+
+.home_container {
+    width: 350px;
+    margin: 0 auto;
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.home_container button:hover {
+    transform: scale(1.1);
+}
+
+.home_container button:active {
+    transform: scale(1);
+}

@@ -1,0 +1,28 @@
+.note {
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.note h4{
+    word-wrap: break-word;
+}
+
+.note button{
+    font-size: 15px;
+    border: none;
+    background: transparent;
+    margin-right: 20px;
+    color: lightseagreen;
+    margin-top: 4px;
+    cursor: pointer;
+}
+
+.note button:hover {
+    transform: scale(1.1);
+}
+
+.note button:active {
+    transform: scale(1.0);
+}
