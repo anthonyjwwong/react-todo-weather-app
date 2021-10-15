@@ -1,5 +1,5 @@
 ## Weather/Todo App
-This is just the weather and todo app in one project using React.
+This is a Todo App and Weather App joined into one. I'm creating this knowledge to solidify the basic knowledge of React.
 
 ## Libraries used (currently): 
 Font-awesome
@@ -8,11 +8,9 @@ react-draggable
 react-animated-css
 
 ## Getting Started with Create React App
-
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
-
 In the project directory, you can run:
 
 ### `yarn start`
